@@ -1,0 +1,55 @@
+{
+  "model_name": "FakeGuard v2.0 (Logistic Regression)",
+  "algorithm": "Logistic Regression",
+  "vectorizer": "TF-IDF",
+  "training_date": "2026-10-04T07:16:41.457223",
+  "dataset": {
+    "total_samples": 440,
+    "fake_samples": 220,
+    "real_samples": 220
+  },
+  "training_samples": 308,
+  "test_samples": 66,
+  "feature_count": 866,
+  "classes": {
+    "0": "FAKE",
+    "1": "REAL"
+  },
+  "metrics": {
+    "training": {
+      "accuracy": 1.0,
+      "f1": 1.0
+    },
+    "test": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "confusion_matrix": [
+      [
+        33,
+        0
+      ],
+      [
+        0,
+        33
+      ]
+    ]
+  },
+  "model_comparison": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "f1": 1.0
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 1.0,
+      "f1": 1.0
+    },
+    "Linear SVM": {
+      "accuracy": 1.0,
+      "f1": 1.0
+    }
+  }
+}
